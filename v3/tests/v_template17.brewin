@@ -1,10 +1,8 @@
-# NOTE I AM GOING TO CLARIFY WITH TAs AND CAREY ABOUT IF THIS IS ALLOWED (Overwriting primitives)!
-
-(tclass MyTemplatedClass (int bool)
-  (field int some_shape)
-  (field bool some_animal)
-  	  (method void act ((int s) (bool a))
-          (let ((int s) (bool d))
+(tclass MyTemplatedClass (temp1 temp2)
+  (field temp1 some_shape)
+  (field temp2 some_animal)
+  	  (method void act ((temp1 s) (temp2 a))
+          (let ((temp1 s) (temp2 d))
             (print "Shape's area: " s)
             (print "Animal's name: " d)
           )
